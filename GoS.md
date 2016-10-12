@@ -1,2 +1,2 @@
-GamingOnSteroids Script
+GamingOnSteroids Scripts
 ~By : Vikk
