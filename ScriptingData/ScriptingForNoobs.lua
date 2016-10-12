@@ -1,18 +1,18 @@
-----------------------Working----------------------
-if GetObjectName(myHero) ~= "Kled" then return end
+--Put down this code and the name of your champion
+if GetObjectName(myHero) ~= "ChampName" then return end
 
---Predict for SkillShots
+--If your champ has skillshots just put this here, if it doesnt just remove it.
 require('OpenPredict')
 
---Starting Message
+--Starting Message.
 --Example : 
-print("Enjoy KledNation // By:Vikk")
+print("Enjoy ChampNation // By:Vikk")
 
---Q Stats / Getting Stats Currently*
-local KledQ = {delay = 0.25, speed = 2000, width = 70, range = 500} 
+--Example for a Q Skill* - You can search the abilities stats in a league champ Wikia.
+local ChampQ = {delay = 0.25, speed = 2000, width = 70, range = 500} 
 
 --Main Menu Tab
-local KledMenu = Menu("KledNation", "KledNation")
+local ChampMenu = Menu("KledNation", "KledNation")
 
 --Menu Options / No R Usage in the Combo for now
   KledMenu:Menu("Combo", "Combo")
