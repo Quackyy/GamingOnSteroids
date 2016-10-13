@@ -1,7 +1,7 @@
 Original Link from KeVuong : https://github.com/KeVuong/GoS/blob/master/Data/SkillList.lua
 
 --[[
-	skilllist Library
+	skilllist Library 
 		by eXtragoZ
 ]]
 
