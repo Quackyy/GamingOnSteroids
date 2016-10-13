@@ -2,7 +2,7 @@
 if GetObjectName(myHero) ~= "ChampName" then return end
 
 --If your champ has skillshots just put this here, if it doesnt just remove it.
-require('OpenPredict')
+require('OpenPredict') 
 
 --Starting Message.
 --Example : 
