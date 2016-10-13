@@ -5,7 +5,7 @@ if GetObjectName(myHero) ~= "Kled" then return end
 require('OpenPredict')
 
 --Starting Message
-print("Enjoy KledNation // By:Vikk")
+print("Enjoy KledNation // By:Vikk") 
 
 --Q Stats / Getting Stats Currently*
 local KledQ = {delay = 0.25, speed = 2000, width = 70, range = 500} 
