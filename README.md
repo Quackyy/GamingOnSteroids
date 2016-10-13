@@ -1,2 +1,3 @@
-GamingOnSteroids Scripts
-~By : Vikk
+**GamingOnSteroids**
+**All Scripts using the IOW Orbwalker.**
+**~By : Vikk**
