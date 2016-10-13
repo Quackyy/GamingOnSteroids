@@ -1,4 +1,4 @@
-Original Link from KeVuong : https://github.com/KeVuong/GoS/blob/master/Data/SpellDatabase.lua
+Original Link from KeVuong : https://github.com/KeVuong/GoS/blob/master/Data/SpellDatabase.lua 
 
 --Outdated
 
