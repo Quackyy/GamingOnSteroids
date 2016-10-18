@@ -46,9 +46,10 @@ OnTick(function()
     end
 end)
   
-EveMenu:SubMenu("SkinChanger", "SkinChanger")
-
-local skinMeta = {["Evelynn"] = {"Classic", "Shadow", "Masquerade", "Tango", "Safecracker"}},
-EveMenu.SkinChanger:DropDown('skin', myHero.charName.. " Skins", 1, skinMeta[myHero.charName], HeroSkinChanger, true)
-EveMenu.SkinChanger.skin.callback = function(model) HeroSkinChanger(myHero, model - 1) print(skinMeta[myHero.charName][model] .." ".. myHero.charName .. " Loaded!") end
+EveMenu:SubMenu("Skin Changer", "Skin Changer")
+  skinMeta = {["Evelynn"] = {"Classic", "Shadow", "Masquerade", "Tango", "Safecracker"}},
+  EveMenu.Skin Changer:DropDown('skin', myHero.charName.. " Skins", 1, skinMeta[myHero.charName],function(model)
+        HeroSkinChanger(myHero, model - 1) print(skinMeta[myHero.charName][model] .." ".. myHero.charName .. " Loaded!") 
+    end,
+true)
  
