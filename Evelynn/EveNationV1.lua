@@ -13,7 +13,7 @@ local EveMenu = Menu("EveNation", "EveNation")
   EveMenu.Combo:Boolean("useR", "Use R", true)
   EveMenu.Combo:Boolean("useCut", "Use Bilgewater Cutlass", true)  
   EveMenu.Combo:Boolean("useGun", "Use Hextech Gunblade", true)
-  EveMenu.Combo:Boolean("useHex", "Use Hextech Protobelt-01", true)
+  EveMenu.Combo:Boolean("useProto", "Use Hextech Protobelt-01", true)
   
 OnTick(function()
 
@@ -31,7 +31,7 @@ OnTick(function()
           CastTargetSpell(target,_E)
         end       
         local protobelt = GetItemSlot(myHero, 3152)
-        if protobelt > 0 and IsReady(protobelt) and EveMenu.Combo.useHex:Value() then
+        if protobelt > 0 and IsReady(protobelt) and EveMenu.Combo.useProto:Value() then
          CastSkillShot(protobelt, target)
         end
         if ValidTarget(target,GetCastRange(myHero, _R)) and Ready(_R) and EveMenu.Combo.useR:Value() then
