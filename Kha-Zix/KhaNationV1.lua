@@ -5,7 +5,7 @@ if GetObjectName(myHero) ~= "Kha'Zix" then return end
 require('OpenPredict')
 
 --Starting Message
-print("Enjoy KhaNation // By:Vikk")
+print("Enjoy KhaNation // By:Crafia")
 
 --W and E Stats *
 local KhaW = {delay = 0.25, speed = 1700, width = 73, range = 1025} 
