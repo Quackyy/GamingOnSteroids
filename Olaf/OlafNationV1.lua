@@ -2,7 +2,7 @@ if GetObjectName(myHero) ~= "Olaf" then return end
 
 require('OpenPredict')
 
-print("Enjoy OlafNation // By:Vikk")
+print("Enjoy OlafNation // By:Crafia")
 
 local OlafQ = {delay = 0.25, speed = 1600, width = 90, range = 1000} 
 
