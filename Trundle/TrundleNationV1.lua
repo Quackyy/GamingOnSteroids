@@ -6,7 +6,7 @@ function AutoUpdate(data)
     if tonumber(data) > tonumber(ver) then
         PrintChat("New version found! " .. data)
         PrintChat("Downloading update, please wait...")
-        DownloadFileAsync("https://raw.githubusercontent.com/Quackyy/TrundleScript/master/Trundle%20-%20The%20Troll.lua", SCRIPT_PATH .. "Trundle - The Troll.lua", function() PrintChat("Update Complete, please 2x F6!") return end)
+        DownloadFileAsync("https://raw.githubusercontent.com/slitmythroatpls/TrundleScript/master/Trundle%20-%20The%20Troll.lua", SCRIPT_PATH .. "Trundle - The Troll.lua", function() PrintChat("Update Complete, please 2x F6!") return end)
     else
         PrintChat("No updates found!")
     end
