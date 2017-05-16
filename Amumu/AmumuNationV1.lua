@@ -4,7 +4,7 @@ if GetObjectName(myHero) ~= "Amumu" then return end
 require('OpenPredict')
 
 --Starting Message
-print("AmumuNation // By:Vikk")
+print("AmumuNation // By:Crafia")
 
 --Q Spell Data
 local AmuQ = {delay = 0.25, speed = 2000, width = 90, range = 1100} 
