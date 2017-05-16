@@ -3488,5 +3488,5 @@ end
 function spellDataBase:GetData(Hero, Spell, Data)
 	return self.Database[Hero][Spell][Data]
 end
- 
+  
  
