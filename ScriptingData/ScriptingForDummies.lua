@@ -36,10 +36,10 @@ OnTick(function()
       local target = GetCurrentTarget() 
              
         if GetItemSlot(myHero, 3142) > 0 and IsReady(GetItemSlot(myHero, 3142)) and ChampMenu.Combo.useYoum:Value() then
-          CastSpell(GetItemSlot(myHero, 3142))  --This will make Youumu's Pop out.
+          CastSpell(GetItemSlot(myHero, 3142))  --This will make Youumu's activate.
         end
         if ValidTarget(target,KledQ.range) and CanUseSpell(myHero,_Q) == READY and ChampMenu.Combo.useQ:Value() then
-          CastSkillShot(_Q)  --Casting Q as a SkillShot
+          CastSkillShot(_Q)  --Casting Q as a SkillShot 
         end                   
         if ValidTarget(target,GetRange(myHero) + GetHitBox(target)) and CanUseSpell(myHero,_E) == READY and ChampMenu.Combo.useE:Value() then
           CastSkillShot(_E)  --Casting E as a SkillShot
