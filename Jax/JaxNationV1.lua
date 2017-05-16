@@ -2,7 +2,7 @@ if GetObjectName(myHero) ~= "Jax" then return end
 
 require('OpenPredict')
 
-print("JaxNation // By:Vikk")
+print("JaxNation // By:Crafia")
 
 local JaxMenu = Menu("JaxNation", "JaxNation")
 
