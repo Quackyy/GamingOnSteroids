@@ -2,7 +2,7 @@ if GetObjectName(myHero) ~= "Lee Sin" then return end
 
 require('OpenPredict')
 
-print("LeeNation // By:Vikk")
+print("LeeNation // By:Crafia")
 
 local LeeQ = {delay = 0.25, speed = 1800, width = 65, range = 1100} 
 
